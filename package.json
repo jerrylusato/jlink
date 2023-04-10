@@ -1,5 +1,5 @@
 {
-  "name": "jlink-backend",
+  "name": "jlink",
   "version": "0.0.0",
   "description": "Shortens and/or masks your URLs/links",
   "main": "index.js",
