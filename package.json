@@ -1,0 +1,20 @@
+{
+  "name": "jlink-backend",
+  "version": "0.0.0",
+  "description": "Shortens and/or masks your URLs/links",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.5"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
