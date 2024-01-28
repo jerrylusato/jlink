@@ -9,7 +9,7 @@ const app = express()
 const port = process.env.PORT || 3000;
 const db = process.env.MONGO_URI;
 
-const Url = require("./url");
+const Url = require("./models/url");
 
 app.use(cors())
 app.use(express.json())
